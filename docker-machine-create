@@ -1,0 +1,1 @@
+docker-machine create terminator --virtualbox-cpu-count=2 --virtualbox-memory=2048 --virtualbox-no-share --driver=virtualbox

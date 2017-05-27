@@ -1,0 +1,1 @@
+docker run --rm -v $PWD:/data -it ubuntu:latest dd if=/dev/zero of=/data/test.data bs=1M count=1024 conv=fdatasync
